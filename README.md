@@ -31,7 +31,8 @@ USAGE
 <!-- commands -->
 * [`wayo hello [FILE]`](#wayo-hello-file)
 * [`wayo help [COMMAND]`](#wayo-help-command)
-* [`wayo init [FILE]`](#wayo-init-file)
+* [`wayo init`](#wayo-init)
+* [`wayo new [FILE]`](#wayo-new-file)
 
 ## `wayo hello [FILE]`
 
@@ -70,13 +71,26 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.0/src/commands/help.ts)_
 
-## `wayo init [FILE]`
+## `wayo init`
+
+```
+USAGE
+  $ wayo init
+
+OPTIONS
+  --boilerplate=React Native
+  --type=React Native
+```
+
+_See code: [src/commands/init.ts](https://github.com/DonsWayo/wayo-cli/blob/v0.0.0/src/commands/init.ts)_
+
+## `wayo new [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ wayo init [FILE]
+  $ wayo new [FILE]
 
 OPTIONS
   -f, --force
@@ -84,5 +98,5 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/init.ts](https://github.com/DonsWayo/wayo-cli/blob/v0.0.0/src/commands/init.ts)_
+_See code: [src/commands/new.ts](https://github.com/DonsWayo/wayo-cli/blob/v0.0.0/src/commands/new.ts)_
 <!-- commandsstop -->
