@@ -11,6 +11,13 @@
     "@oclif/command": "^1.5.18",
     "@oclif/config": "^1.13.2",
     "@oclif/plugin-help": "^2.2.0",
+    "@types/inquirer": "^6.0.3",
+    "@types/shelljs": "^0.8.5",
+    "@types/signale": "^1.2.1",
+    "inquirer": "^6.5.0",
+    "replace-in-file": "^4.1.1",
+    "shelljs": "^0.8.3",
+    "signale": "^1.4.0",
     "tslib": "^1.10.0"
   },
   "devDependencies": {
