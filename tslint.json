@@ -1,8 +1,3 @@
 {
-  "extends": "@oclif/tslint",
-  "linterOptions": {
-    "exclude": [
-        "src/templates/**"
-    ]
-}
+  "extends": "@oclif/tslint"
 }
